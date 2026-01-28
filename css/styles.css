@@ -1,6 +1,28 @@
+* {
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  color: chartreuse;
+  font-family: Arial, sans-serif;
+}
 p {
   font-size: 16px;
   line-height: 1.5;
-  color: #333333;
-  background-color: beige;
+  color: black;
+}
+
+#header {
+  color:brown;
+}
+
+#header-h2 {
+  font-size: 36px;
+  margin: 0;
+  color: darkblue;
+}
+
+.listt {
+  list-style-type: square;
+  padding-left: 20px;
+  color: darkgreen;
 }
