@@ -12,7 +12,7 @@ p {
 }
 
 #header {
-  color:brown;
+  color: brown;
 }
 
 #header-h2 {
@@ -25,4 +25,27 @@ p {
   list-style-type: square;
   padding-left: 20px;
   color: darkgreen;
+}
+
+.first-box-container {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  background-color: red;
+}
+
+.second-box-container {
+  width: 200px;
+  height: 100px;
+  left: 250px;
+  position: absolute;
+  background-color: yellow;
+}
+
+.third-box-container {
+  width: 200px;
+  height: 100px;
+  left: 500px;
+  position: absolute;
+  background-color: green;
 }
